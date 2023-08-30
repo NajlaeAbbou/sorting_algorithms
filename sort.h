@@ -46,4 +46,6 @@ void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
+int _lomuto_partition(int *array, size_t size, int left, int right);
+void _lomuto_sort(int *array, size_t size, int left, int right);
 #endif
